@@ -1,14 +1,32 @@
 <section id="chapter 3 Projects">
     div class="project">
-        <h2>Project Title</h2>
+        <h2>Chapter 3 Project</h2>
         <p>Project description goes here.</p>
         
 
-
-
-
-
-
-
+</section>  
+form id = contact-form>
+    <h2>Contact Me</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    
+    <button type="submit">Send</button>
+    <div id="error-message" style="color: red; display: none;"></div>
+</form>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<div id="typed-text"></div>
+var tpyed = new Typed('#typed-text', {
+    strings: ["Welcome to My Portfolio", "Explore My Projects", "Contact Me for More Info"],
+    typeSpeed: 50,
+    backSpeed: 25,
+    loop: true
+}); 
 
 script <source>src="script.js"></script>
+
